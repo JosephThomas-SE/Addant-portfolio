@@ -1,0 +1,358 @@
+#exe1mainDiv {
+    height: 72vh;
+}
+
+.exe1content1 {
+    margin-top: 0px;
+}
+
+.mainexe1img {
+    margin-left: 240px;
+}
+
+.exe1content2_heading img{
+    float: center;
+    width: 80px;
+    height: 62px;
+}
+
+.exe1content2_heading h1 {
+    display: inline;
+}
+
+.exe1heading {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #515151;
+    margin-top: 12px;
+}
+  
+.exe1text2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #515151;
+}
+
+.exe1subdiv {
+    border: 1.5px solid black;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    margin-right: 12px;
+}
+
+.exe1subhead {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #515151;
+}
+
+.exe1subpara {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #888888;
+}
+
+  
+/* Phone/ Small */
+@media only screen and (max-device-width: 640px) {
+    #exe1mainDiv {
+        height: 72vh;
+    }
+    
+    .exe1content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe1img {
+        margin-left: 25%;
+        width: 46%;
+    }
+    
+    .exe1content2_heading img{
+        float: center;
+        width: 44px;
+        margin-bottom: 0px;
+    }
+    
+    .exe1content2_heading h1 {
+        display: inline;
+    }
+    
+    .exe1heading {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+      
+    .exe1text2 {
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+    
+    .exe1subhead {
+        font-size: 16px;
+    }
+    
+    .exe1subpara {
+        font-size: 13px;
+        line-height: 150%;
+    }
+}
+  
+/* Tabs/ Medium */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+
+}
+  
+/* Laptop/ MAC */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1919px) {
+    #exe1mainDiv {
+        height: 64vh;
+    }
+    
+    .exe1content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe1img {
+        margin-left: 180px;
+        width: 456px;
+    }
+    
+    .exe1content2_heading img{
+        float: center;
+        width: 70px;
+        position:absolute;
+        margin-left: -25px;
+    }
+    
+    .exe1content2_heading h1 {
+        display: inline;
+        margin-top: 12px;
+    }
+    
+    .exe1heading {
+        font-size: 30px;
+    }
+      
+    .exe1text2 {
+        font-size: 25px;
+        margin-bottom:32px;
+    }
+    
+    .exe1subdiv {
+        margin-top: 12px;
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+        width: auto;
+    }
+    
+    .exe1subhead {
+        font-size: 26px;
+    }
+    
+    .exe1subpara {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+}
+/* Desktop */
+@media only screen and (min-device-width: 1920px) {
+    #mainDiv {
+        height: 72vh;
+    }
+    
+    .content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe1img {
+        margin-left: 240px;
+    }
+    
+    .content2_heading img{
+        float: center;
+        width: 80px;
+        height: 62px;
+    }
+    
+    .content2_heading h1 {
+        display: inline;
+    }
+    
+    .heading {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        color: #515151;
+        margin-top: 12px;
+    }
+      
+    .text2 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        color: #515151;
+    }
+    
+    .subdiv {
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+    }
+    
+    .subhead {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        color: #515151;
+    }
+    
+    .subpara {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #888888;
+    }
+}
+
+
+/* eye brows animation and circle and text animation */
+.up-down-exe1 {
+    -webkit-animation: mover2 1s infinite  alternate;
+    animation: mover2 1s infinite  alternate;
+}
+.up-down-exe1 {
+    -webkit-animation: mover2 1s infinite  alternate;
+    animation: mover2 1s infinite  alternate;
+}
+@-webkit-keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+/* eyes animation */
+.right-left-exe1 {
+    animation: mover9 .9s infinite alternate;
+}
+
+@keyframes mover9 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-2px);}
+}
+
+
+/* rating stars animation */
+.ro-round-onboard {
+    animation: mover7 infinite 5s both;
+}
+
+@keyframes mover7 {
+    0% { transform: rotate(360deg); }
+  }
+
+.ro-rotate-exe1 {
+    -webkit-animation: mover8 4s linear infinite;
+    -moz-animation: mover8 4s linear infinite;
+    animation: mover8 4s linear infinite;
+}
+@-moz-keyframes mover8 { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes mover8 { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes mover8 { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+/** The Class **/
+.under-pressure-exe1 {
+	-webkit-animation: under-pressure1 0.5s linear infinite both;
+	        animation: under-pressure1 0.3s linear infinite both;
+}
+
+/** animation under-pressure for chart circle */
+@-webkit-keyframes under-pressure1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes under-pressure1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}

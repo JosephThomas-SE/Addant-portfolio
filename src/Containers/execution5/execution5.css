@@ -1,0 +1,317 @@
+#exe5mainDiv {
+    height: 72vh;
+}
+
+.exe5content1 {
+    margin-top: 0px;
+}
+
+.mainexe5img {
+    margin-left: 240px;
+}
+
+.exe5content2_heading img{
+    float: center;
+    width: 80px;
+    height: 62px;
+}
+
+.exe5content2_heading h1 {
+    display: inline;
+}
+
+.exe5heading {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #515151;
+}
+  
+.exe5text2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #515151;
+}
+
+.exe5subdiv {
+    border: 1.5px solid black;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    margin-right: 12px;
+}
+
+.exe5subhead {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #515151;
+}
+
+.exe5subpara {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #888888;
+}
+
+  
+/* Phone/ Small */
+@media only screen and (max-device-width: 640px) {
+    #exe5mainDiv {
+        height: 72vh;
+    }
+    
+    .exe5content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe5img {
+        margin-left: 25%;
+        width: 48%;
+    }
+    
+    .exe5content2_heading img{
+        float: center;
+        width: 44px;
+    }
+    
+    .exe5content2_heading h1 {
+        display: inline;
+    }
+    
+    .exe5heading {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+      
+    .exe5text2 {
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+
+    .exe5subhead {
+        font-size: 16px;
+    }
+    
+    .exe5subpara {
+        font-size: 13px;
+        line-height: 150%;
+    }
+}
+  
+/* Tabs/ Medium */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+
+}
+  
+/* Laptop/ MAC */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1919px) {
+    #exe5mainDiv {
+        height: 64vh;
+    }
+    
+    .exe5content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe5img {
+        margin-left: 180px;
+        width: 456px;
+    }
+    
+    .exe5content2_heading img{
+        float: center;
+        width: 70px;
+        position:absolute;
+        margin-left: -25px;
+    }
+    
+    .exe5content2_heading h1 {
+        display: inline;
+        margin-top: 12px;
+    }
+    
+    .exe5heading {
+        font-size: 30px;
+    }
+      
+    .exe5text2 {
+        font-size: 23px;
+        margin-bottom:32px;
+    }
+    
+    .exe5subdiv {
+        margin-top: 12px;
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+        width: auto;
+    }
+    
+    .exe5subhead {
+        font-size: 26px;
+    }
+    
+    .exe5subpara {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+}
+
+/* Desktop
+@media only screen and (min-device-width: 1920px) {
+    #mainDiv {
+        height: 72vh;
+    }
+    
+    .content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe5img {
+        margin-left: 240px;
+    }
+    
+    .content2_heading img{
+        float: center;
+        width: 80px;
+        height: 62px;
+    }
+    
+    .content2_heading h1 {
+        display: inline;
+    }
+    
+    .heading {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        color: #515151;
+    }
+      
+    .text2 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        color: #515151;
+    }
+    
+    .subdiv {
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+    }
+    
+    .subhead {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        color: #515151;
+    }
+    
+    .subpara {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #888888;
+    }
+} */
+
+
+
+
+
+/* tickmark and the rectangle that contains the code samples */
+.up-down-exe5 {
+    -webkit-animation: mover22 1s infinite  alternate;
+    animation: mover22 1s infinite  alternate;
+}
+.up-down-exe5 {
+    -webkit-animation: mover22 1s infinite  alternate;
+    animation: mover22 1s infinite  alternate;
+}
+@-webkit-keyframes mover22 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-7px); }
+}
+@keyframes mover22 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-7px); }
+}
+
+
+/* code samples animation */
+.right-left-exe5 {
+    animation: mover21 .9s infinite alternate;
+}
+@keyframes mover21 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-2px);}
+}
+
+
+/** The Class **/
+.under-pressure-exe5 {
+	-webkit-animation: under-pressure5 4s linear infinite both;
+	        animation: under-pressure5 4s linear infinite both;
+}
+
+/** animation under-pressure for rocket and gears */
+@-webkit-keyframes under-pressure5 {
+    0% {
+        transform:  translate(1px,40px)  ;
+      }
+      100% {
+        transform:  translate(1px,-2px)  ;
+      }
+}
+@keyframes under-pressure5 {
+    0% {
+        transform:  translate(1px,40px)  ;
+      }
+      100% {
+        transform:  translate(1px,-2px)  ;
+      }
+}
+
+/* rocket-execution5 animation */
+.ro-rocket-exe5{
+    animation: up-exe5 linear 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes up-exe5{
+    0% {
+      transform:  translate(0px,0px)  ;
+    }
+    100% {
+      transform:  translate(140px,-150px)  ;
+    }
+  }

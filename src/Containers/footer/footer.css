@@ -1,0 +1,46 @@
+.footer_A {
+    display: inline;
+    float: right;
+    margin-right: 61px;
+}
+
+    /* Phone/ Small */
+@media only screen and (max-device-width: 640px) {
+    .footer_A {
+        width: 49px;
+        display: inline;
+        float: right;
+        margin-right: 30px;
+    }
+}
+
+    /* Tabs/ Medium */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+    .footer_A {
+        width: 65px;
+        display: inline;
+        float: right;
+        margin-top: 30px;
+    }
+}
+
+    /* Laptop/ MAC */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1919px) {
+    .footer_A {
+        width: 45px;
+        display: inline;
+        float: right;
+        margin-right: 34px;
+    }
+}
+
+    /* Desktop */
+@media only screen and (min-device-width: 1920px) {
+        .footer_A {
+            width: 65px;
+            display: inline;
+            float: right;
+            margin-right: 30px;
+        }
+}
+

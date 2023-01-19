@@ -1,0 +1,107 @@
+.nav_content1{
+    width: 100vw;
+    height: 9vh;
+    margin-top: 40px;
+}
+
+.nav_menubutton button{
+    background: #FFFFFF;
+    border: 0px;
+}
+
+.nav_logo img {
+    margin-left: 55px;
+}
+
+.nav_menubutton img{
+    margin-top: 8px;
+    display: inline;
+    float: right;
+    margin-right: 30px;
+}
+
+
+
+/* Phone/ Small */
+@media only screen and (max-device-width: 640px) {
+    .nav_content1{
+        width: 100vw;
+        height: 9vh;
+        margin-top: 20px;
+        display: inline;
+    }
+    
+    .nav_menubutton button{
+        background: #FFFFFF;
+        border: 0px;
+    }
+    
+    .nav_logo img {
+        width: 100px;
+        margin-left: 5%;
+    }
+    
+    .nav_button{
+        display: none;
+    }
+
+    .nav_menubutton img{
+        width: 28px;
+        margin-top: 8px;
+        margin-left: 60px;
+    }
+}
+
+/* Tabs/ Medium */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+
+}
+
+/* Laptop/ MAC */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1919px) {
+    .nav_content1{
+        width: 100vw;
+        margin-top: 20px;
+    }
+    
+    .nav_menubutton button{
+        background: #FFFFFF;
+        border: 0px;
+    }
+    
+    .nav_logo img {
+        margin-left: 55px;
+        width: 124px;
+    }
+    
+    .nav_menubutton img{
+        margin-top: 8px;
+        width: 40px;
+        margin-left: 145px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1920px) {
+    .nav_content1{
+        width: 100vw;
+        height: 9vh;
+        margin-top: 40px;
+    }
+    
+    .nav_menubutton button{
+        background: #FFFFFF;
+        border: 0px;
+    }
+    
+    .nav_logo img {
+        margin-left: 55px;
+    }
+    
+    .nav_menubutton img{
+        margin-top: 8px;
+        display: inline;
+        float: right;
+        margin-right: 30px;
+    }
+}

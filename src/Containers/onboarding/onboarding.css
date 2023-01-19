@@ -1,0 +1,328 @@
+#onboardmainDiv {
+    height: 72vh;
+}
+
+.onboardcontent1 {
+    margin-top: 0px;
+}
+
+.mainonboardimg {
+    margin-left: 155px;
+}
+
+.onboardheading {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #515151;
+}
+  
+.onboardtext2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #515151;
+    margin-bottom:32px;
+}
+
+.onboardsubdiv {
+    border: 1.5px solid black;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    margin-right: 12px;
+    background: radial-gradient(98.48% 326.98% at 0% 3.35%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    backdrop-filter: blur(21px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 26px;
+}
+
+.onboardsubhead {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #515151;
+}
+
+.onboardsubpara {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #888888;
+}
+
+  
+/* Phone/ Small */
+@media only screen and (max-device-width: 640px) {
+    #onboardmainDiv {
+        height: 72vh;
+    }
+    
+    .onboardcontent1 {
+        margin-top: 0px;
+    }
+    
+    .mainonboardimg {
+        margin-left: 25%;
+        width: 50%;
+    }
+    
+    .onboardheading {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+      
+    .onboardtext2 {
+        font-size: 18px;
+        margin-bottom:22px;
+    }
+    
+    .onboardsubhead {
+        font-size: 16px;
+    }
+    
+    .onboardsubpara {
+        font-size: 13px;
+        line-height: 150%;
+    }
+}
+  
+/* Tabs/ Medium */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+
+}
+  
+/* Laptop/ MAC */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1919px) {
+    #onboardmainDiv {
+        height: 64vh;
+    }
+    
+    .onboardcontent1 {
+        margin-top: 0px;
+    }
+    
+    .mainonboardimg {
+        margin-left: 180px;
+        width: 456px;
+    }
+    
+    .onboardheading {
+        font-size: 30px;
+    }
+      
+    .onboardtext2 {
+        font-size: 26px;
+        margin-bottom:32px;
+    }
+    
+    .onboardsubdiv {
+        margin-top: 12px;
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+        width: auto;
+    }
+    
+    .onboardsubhead {
+        font-size: 26px;
+    }
+    
+    .onboardsubpara {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    .up-down-onboard {
+        -webkit-animation: mover2 1s infinite  alternate;
+        animation: mover2 1s infinite  alternate;
+    }
+    .up-down-onboard {
+        -webkit-animation: mover2 1s infinite  alternate;
+        animation: mover2 1s infinite  alternate;
+    }
+    @-webkit-keyframes mover2 {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+    @keyframes mover2 {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+}
+
+/* Desktop */
+/* @media only screen and (min-device-width: 1920px) {
+    #onboardmainDiv {
+        height: 72vh;
+    }
+    
+    .onboardcontent1 {
+        margin-top: 0px;
+    }
+    
+    .mainonboardimg {
+        margin-left: 155px;
+    }
+    
+    .onboardheading {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        color: #515151;
+    }
+      
+    .onboardtext2 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        color: #515151;
+        margin-bottom:32px;
+    }
+    
+    .onboardsubdiv {
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+    }
+    
+    .onboardsubhead {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        color: #515151;
+    }
+    
+    .onboardsubpara {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #888888;
+    }
+    
+      
+} */
+
+.up-down-onboard {
+    -webkit-animation: mover2 1s infinite  alternate;
+    animation: mover2 1s infinite  alternate;
+}
+.up-down-onboard {
+    -webkit-animation: mover2 1s infinite  alternate;
+    animation: mover2 1s infinite  alternate;
+}
+@-webkit-keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.right-left-onboard {
+    animation: mover3 .9s infinite alternate;
+}
+
+@keyframes mover3 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-2px);}
+}
+
+
+.ro-round-onboard {
+    animation: mover7 infinite 5s both;
+}
+
+@keyframes mover7 {
+    0% { transform: rotate(360deg); }
+  }
+
+
+
+  /** The Class **/
+.under-pressure-onboard {
+	-webkit-animation: under-pressure-onboard 1s linear infinite both;
+	        animation: under-pressure-onboard 1s linear infinite both;
+}
+
+/** animation under-pressure for chart circle */
+@-webkit-keyframes under-pressure-onboard {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  50% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes under-pressure-onboard {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}

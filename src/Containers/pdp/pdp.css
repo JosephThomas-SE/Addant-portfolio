@@ -1,0 +1,278 @@
+#mainpdpDiv {
+    height: 72vh;
+}
+
+.content1 {
+    margin-top: 0px;
+}
+
+.mainpdpimg {
+    margin-left: 180px;
+    width: 706px;
+}
+
+.pdpheading {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 47px;
+    color: #515151;
+}
+  
+.pdptext2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #515151;
+    margin-bottom:32px;
+}
+
+.pdpsubdiv {
+    border: 1.5px solid black;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    margin-right: 12px;
+}
+
+.pdpsubhead {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #515151;
+}
+
+.pdpsubpara {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #888888;
+}
+
+/* Phone/ Small */
+@media only screen and (max-device-width: 640px) {
+    #mainpdpDiv {
+        height: 72vh;
+    }
+    
+    .content1 {
+        margin-top: 0px;
+    }
+    
+    .mainpdpimg {
+        margin-left: 25%;
+        width: 38%;
+    }
+    
+    .pdpheading {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+      
+    .pdptext2 {
+        font-size: 18px;
+        margin-bottom:22px;
+    }
+    
+    .pdpsubhead {
+        font-size: 16px;
+    }
+    
+    .pdpsubpara {
+        font-size: 13px;
+        line-height: 150%;
+    }
+}
+  
+/* Tabs/ Medium */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+    #mainpdpDiv {
+        height: 72vh;
+    }
+    
+    .content1 {
+        margin-top: 0px;
+    }
+    
+    .mainpdpimg {
+        margin-left: 25%;
+        width: 38%;
+    }
+    
+    .pdpheading {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+      
+    .pdptext2 {
+        font-size: 18px;
+        margin-bottom:22px;
+    }
+    
+    .pdpsubhead {
+        font-size: 16px;
+    }
+    
+    .pdpsubpara {
+        font-size: 13px;
+        line-height: 150%;
+    }
+}
+  
+/* Laptop/ MAC */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1919px) {
+    #mainpdpDiv {
+        height: 64vh;
+    }
+    
+    .content1 {
+        margin-top: 0px;
+    }
+    
+    .mainpdpimg {
+        margin-left: 180px;
+        width: 456px;
+    }
+    
+    .pdpheading {
+        font-size: 30px;
+    }
+      
+    .pdptext2 {
+        font-size: 26px;
+        margin-bottom:32px;
+    }
+    
+    .pdpsubdiv {
+        margin-top: 12px;
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+        width: auto;
+    }
+    
+    .pdpsubhead {
+        font-size: 23px;
+    }
+    
+    .pdpsubpara {
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1920px) {
+    #mainpdpDiv {
+        height: 72vh;
+    }
+    
+    .content1 {
+        margin-top: 0px;
+    }
+    
+    .mainpdpimg {
+        margin-left: 180px;
+        width: 706px;
+    }
+    
+    .pdpheading {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 47px;
+        color: #515151;
+    }
+      
+    .pdptext2 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        color: #515151;
+        margin-bottom:32px;
+    }
+    
+    .pdpsubdiv {
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+    }
+    
+    .pdpsubhead {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        color: #515151;
+    }
+    
+    .pdpsubpara {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #888888;
+    }
+}
+
+.up-down-pdp {
+    -webkit-animation: mover1 1s infinite  alternate;
+    animation: mover1 1s infinite  alternate;
+}
+.up-down-pdp {
+    -webkit-animation: mover1 1s infinite  alternate;
+    animation: mover1 1s infinite  alternate;
+}
+@-webkit-keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.up-down-pdp2 {
+    -webkit-animation: mover5 1s infinite  alternate;
+    animation: mover5 1s infinite  alternate;
+}
+.up-down-pdp2 {
+    -webkit-animation: mover5 1s infinite  alternate;
+    animation: mover5 1s infinite  alternate;
+}
+@-webkit-keyframes mover5 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-1px); }
+}
+@keyframes mover5 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-1px); }
+}
+
+.right-left-pdp {
+    animation: mover4 .9s infinite alternate;
+}
+
+@keyframes mover4 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-2px);}
+}

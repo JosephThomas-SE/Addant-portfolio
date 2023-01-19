@@ -1,0 +1,38 @@
+body {
+  overflow-x: hidden;
+  background-image: url(./assets/BlackLines.svg);
+  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Gilroy, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* Phone/ Small */
+@media only screen and (max-device-width: 640px) {
+  
+}
+
+/* Tabs/ Medium */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+   
+}
+
+/* Laptop/ MAC */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1919px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1920px) {
+   
+}

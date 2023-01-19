@@ -1,0 +1,448 @@
+#exe2mainDiv {
+    height: 72vh;
+}
+
+.exe2content1 {
+    margin-top: 0px;
+}
+
+.mainexe2img {
+    margin-left: 240px;
+}
+
+.exe2content2_heading img{
+    float: center;
+    width: 80px;
+    height: 62px;
+}
+
+.exe2content2_heading h1 {
+    display: inline;
+}
+
+.exe2heading {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #515151;
+}
+  
+.exe2text2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #515151;
+}
+
+.exe2subdiv {
+    border: 1.5px solid black;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    margin-right: 12px;
+}
+
+.exe2subhead {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    color: #515151;
+}
+
+.exe2subpara {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #888888;
+}
+
+  
+/* Phone/ Small */
+@media only screen and (max-device-width: 640px) {
+    #exe2mainDiv {
+        height: 72vh;
+    }
+    
+    .exe2content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe2img {
+        margin-left: 25%;
+        width: 43%;
+    }
+    
+    .exe2content2_heading img{
+        float: center;
+        width: 44px;
+        margin-bottom: 0px;
+    }
+    
+    .exe2content2_heading h1 {
+        display: inline;
+    }
+    
+    .exe2heading {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+      
+    .exe2text2 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .exe2subhead {
+        font-size: 16px;
+    }
+    
+    .exe2subpara {
+        font-size: 13px;
+        line-height: 150%;
+    }
+}
+  
+/* Tabs/ Medium */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+
+}
+  
+/* Laptop/ MAC */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1919px) {
+    #exe2mainDiv {
+        height: 64vh;
+    }
+    
+    .exe2content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe2img {
+        margin-left: 180px;
+        width: 456px;
+    }
+    
+    .exe2content2_heading img{
+        float: center;
+        width: 70px;
+        position:absolute;
+        margin-left: -25px;
+    }
+    
+    .exe2content2_heading h1 {
+        display: inline;
+        margin-top: 12px;
+    }
+    
+    .exe2heading {
+        font-size: 30px;
+    }
+      
+    .exe2text2 {
+        font-size: 25px;
+        margin-bottom:32px;
+    }
+    
+    .exe2subdiv {
+        margin-top: 12px;
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+        width: auto;
+    }
+    
+    .exe2subhead {
+        font-size: 26px;
+    }
+    
+    .exe2subpara {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+}
+
+/* Desktop
+@media only screen and (min-device-width: 1920px) {
+    #mainDiv {
+        height: 72vh;
+    }
+    
+    .content1 {
+        margin-top: 0px;
+    }
+    
+    .mainexe2img {
+        margin-left: 240px;
+    }
+    
+    .content2_heading img{
+        float: center;
+        width: 80px;
+        height: 62px;
+    }
+    
+    .content2_heading h1 {
+        display: inline;
+    }
+    
+    .heading {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        color: #515151;
+    }
+      
+    .text2 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        color: #515151;
+    }
+    
+    .subdiv {
+        border: 1.5px solid black;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        margin-right: 12px;
+    }
+    
+    .subhead {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        color: #515151;
+    }
+    
+    .subpara {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #888888;
+    }
+} */
+
+
+/* eye brows animation */
+.up-down-exe2 {
+    -webkit-animation: mover12 1s infinite  alternate;
+    animation: mover12 1s infinite  alternate;
+}
+.up-down-exe2 {
+    -webkit-animation: mover12 1s infinite  alternate;
+    animation: mover12 1s infinite  alternate;
+}
+@-webkit-keyframes mover12 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-7px); }
+}
+@keyframes mover12 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-7px); }
+}
+
+/* eyes animation */
+.right-left-exe2 {
+    animation: mover13 .9s infinite alternate;
+}
+@keyframes mover13 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-2px);}
+}
+
+/* gear animation */
+.ro-round-exe2 {
+    animation: mover17 infinite 5s both;
+}
+@keyframes mover17 {
+    0% { transform: rotate(360deg); }
+  }
+
+  
+/** The Class **/
+.under-pressure-exe2 {
+	-webkit-animation: under-pressure2 0.5s linear infinite both;
+	        animation: under-pressure2 0.3s linear infinite both;
+}
+
+/** animation under-pressure for rocket and gears */
+@-webkit-keyframes under-pressure2 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes under-pressure2 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+
+.pulse-bulb-exe2 {
+    fill: #0EC79B;
+    -webkit-animation-name: flicker;
+    animation-name: flicker;
+    -webkit-animation-duration: 8s;
+    animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.3+0,0+50
+background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#00ffffff',GradientType=1 ); */
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100 */
+background: rgb(254,252,234); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(241,218,54,1) 50%, rgba(254,252,234,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(241,218,54,1) 50%, rgba(254,252,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(241,218,54,1) 0%, rgba(254,252,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+@keyframes flicker {
+from {
+opacity: 0.5;
+}
+4% {
+opacity: 0.7;
+}
+8% {
+opacity: 0.45;
+}
+12% {
+opacity: 0.65;
+}
+16% {
+opacity: 0.30;
+}
+20% {
+opacity: 0.5;
+}
+24% {
+opacity: 0.6;
+}
+28% {
+opacity: 0.25;
+}
+32% {
+opacity: 0.30;
+}
+36% {
+opacity: 0.55;
+}
+40% {
+opacity: 0.4;
+}
+44% {
+opacity: 0.6;
+}
+48% {
+opacity: 0.35;
+}
+52% {
+opacity: 0.20;
+}
+56% {
+opacity: 0.70;
+}
+60% {
+opacity: 0.5;
+}
+64% {
+opacity: 0.65;
+}
+68% {
+opacity: .35;
+}
+72% {
+opacity: 0.5;
+}
+76% {
+opacity: 0.4;
+}
+80% {
+opacity: .65;
+}
+84% {
+opacity: 0.40;
+}
+88% {
+opacity: 0.35;
+}
+92% {
+opacity: 0.6;
+}
+96% {
+opacity: 0.3;
+}
+to {
+opacity: 0.5;
+}
+}

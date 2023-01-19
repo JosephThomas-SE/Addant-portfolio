@@ -1,0 +1,11 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  margin-top: 65px;
+  width: 100vw;
+  height: 80vh;
+  background-image: url(./assets/BlackLines.svg);
+}
